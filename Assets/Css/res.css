@@ -1,0 +1,36 @@
+/* PC */
+@media only screen and (min-width: 740px) {
+    #header .menu-mobile-btn {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px) {
+    #nav > li {
+        display: block;
+    }
+
+    #header .search-btn,
+    #slider .text-content {
+        display: none;
+    }
+
+    .place-item:nth-child(2) {
+        margin: 15px 0;
+    }
+
+    .contact-form {
+        margin-top: 15px;
+    }
+
+    .place-item,
+    #content .member-item,
+    .contact-info, 
+    .contact-form, 
+    .contact-half-input, 
+    .contact-half-input input{
+        display: block;
+        width: 100%;
+    }
+}
